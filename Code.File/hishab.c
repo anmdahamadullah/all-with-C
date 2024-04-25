@@ -12,7 +12,7 @@ int main() {
       nid = 280, bank = 420, khaisi = 120, gese = 3395, amaDise = 1600,
       saeem = 500, tomraDiso = 2100, tahole = 1295, ron = 1295, momen = 1770;
 
-  // Mymensing
+  // Mymensing ......
 
   printf("   \n\n\n   20 Tarikh Police clearance Er jonno Total Khoroch:%d\n\n",
          tarikh);
@@ -86,5 +86,6 @@ int main() {
   printf("   Tahole Amar Rin holo:%d \n\n\n", ron);
 
   printf("   Mymensing er Dhaka miliye Total Rin:%d \n\n\n", momen);
+
   return 0;
 };
