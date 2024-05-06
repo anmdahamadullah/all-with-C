@@ -1,4 +1,9 @@
-/*#include <math.h>
+// YOU CAN SEE THE OUTPUT WHEN YOU USE>>>  -lm
+// Example:>> gcc ./CDE.File/MY\ FILE/basicLog.c -o ./OTP.File/file -lm
+
+// But here are all the dot values. What is the solution?
+
+#include <math.h>
 #include <stdio.h>
 int main() {
   char operator;
@@ -18,9 +23,10 @@ int main() {
     result = sqrt(num2);
     break;
   default:
-    printf("Error!!!");
+    printf(
+        "Error!!!"); //// But here are all the dot values. What is the solution?
   }
   printf("The Value is:%lf \n", result);
 
   return 0;
-};*/
+};

@@ -1,3 +1,9 @@
+
+// YOU CAN SEE THE OUTPUT WHEN YOU USE>>>  -lm
+// Example:>> gcc ./CDE.File/PROJECTS/projectInsaeem.c -o ./OTP.File/if2 -lm
+
+// But here are all the dot values. What is the solution?
+
 #include <math.h>
 #include <stdio.h>
 int main() {
@@ -28,7 +34,8 @@ int main() {
     totalResults = log(num1);
     break;
   case 's':
-    totalResults = sqrt(num2);
+    totalResults =
+        sqrt(num2); // But here are all the dot values. What is the solution?
     break;
   default:
     printf("Error!!! Please Try Again..\n");
