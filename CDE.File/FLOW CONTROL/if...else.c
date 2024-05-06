@@ -6,10 +6,10 @@ int main() {
   printf("Enter marks");
   scanf("%d", &rajiyaMarks);
   if (rajiyaMarks == 80) {
-    printf("you: correct%d\n", rajiyaMarks);
+    printf("you: correct:%d \n", rajiyaMarks);
   } else {
 
-    printf("you not:correct \n");
+    printf("you not correct: \n");
   }
 
   return 0;
